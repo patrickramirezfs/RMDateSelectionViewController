@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA1E62491A24D3C10025A6A6 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1E62481A24D3C10025A6A6 /* Launch Screen.xib */; };
+		55212CC627DB1F1C008CBA5E /* RMDateSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55212CC527DB1F1C008CBA5E /* RMDateSelection.storyboard */; };
 		CA2C5C171DA2699400670F0F /* RMDateSelectionViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2C5C101DA2699300670F0F /* RMDateSelectionViewController.framework */; };
 		CA2C5C181DA2699400670F0F /* RMDateSelectionViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA2C5C101DA2699300670F0F /* RMDateSelectionViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CA2C5C1D1DA269C200670F0F /* RMDateSelectionViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2C5C101DA2699300670F0F /* RMDateSelectionViewController.framework */; };
@@ -196,7 +196,7 @@
 
 /* Begin PBXFileReference section */
 		2977B11CE075228E04E7C677 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1E62481A24D3C10025A6A6 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		55212CC527DB1F1C008CBA5E /* RMDateSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RMDateSelection.storyboard; sourceTree = "<group>"; };
 		CA2C5C061DA2669900670F0F /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMDateSelectionViewController.h; path = RMDateSelectionViewController/RMDateSelectionViewController.h; sourceTree = "<group>"; };
 		CA2C5C071DA2669900670F0F /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMDateSelectionViewController.m; path = RMDateSelectionViewController/RMDateSelectionViewController.m; sourceTree = "<group>"; };
 		CA2C5C101DA2699300670F0F /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,7 +368,6 @@
 		CAA60A42181C1A0200198490 /* RMDateSelectionViewController-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CA1E62481A24D3C10025A6A6 /* Launch Screen.xib */,
 				CAA60A77181C1ACF00198490 /* Main.storyboard */,
 				CAA60A4B181C1A0200198490 /* RMAppDelegate.h */,
 				CAA60A4C181C1A0200198490 /* RMAppDelegate.m */,
@@ -376,6 +375,7 @@
 				CAA60A52181C1A0200198490 /* RMViewController.m */,
 				CAA60A54181C1A0200198490 /* Images.xcassets */,
 				CAA60A43181C1A0200198490 /* Supporting Files */,
+				55212CC527DB1F1C008CBA5E /* RMDateSelection.storyboard */,
 			);
 			path = "RMDateSelectionViewController-Demo";
 			sourceTree = "<group>";
@@ -713,7 +713,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1E62491A24D3C10025A6A6 /* Launch Screen.xib in Resources */,
+				55212CC627DB1F1C008CBA5E /* RMDateSelection.storyboard in Resources */,
 				CAA60A55181C1A0200198490 /* Images.xcassets in Resources */,
 				CAA60A78181C1ACF00198490 /* Main.storyboard in Resources */,
 			);
@@ -1005,7 +1005,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1052,7 +1052,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -1063,7 +1063,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMDateSelectionViewController-Demo/RMDateSelectionViewController-Demo-Prefix.pch";
 				INFOPLIST_FILE = "RMDateSelectionViewController-Demo/RMDateSelectionViewController-Demo-Info.plist";
@@ -1079,7 +1079,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMDateSelectionViewController-Demo/RMDateSelectionViewController-Demo-Prefix.pch";
 				INFOPLIST_FILE = "RMDateSelectionViewController-Demo/RMDateSelectionViewController-Demo-Info.plist";
